@@ -1,11 +1,9 @@
 import os
-import tempfile
 from PIL import Image
 import streamlit as st
-import numpy as np
-import sounddevice as sd
-import wave
+
 from streamlit_option_menu import option_menu
+
 
 from gemini_utility import (load_gemini_pro_model,
                             gemini_pro_response,
