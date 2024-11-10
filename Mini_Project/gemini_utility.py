@@ -1,13 +1,8 @@
 import os
 import json
-import cv2
+
 from PIL import Image
-import io
-import tempfile
-from PIL import Image, ImageDraw
-import soundfile as sf  # For reading audio files
-import numpy as np  # For audio processing
-from streamlit_option_menu import option_menu
+
 
 import google.generativeai as genai
 
